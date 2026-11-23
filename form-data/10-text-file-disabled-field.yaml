@@ -17,7 +17,7 @@ body:
     key: user
     type: text
     value: tung
-  - enabled: true
+  - enabled: false
     id: b1ba17bb16cbf38a4932c7bd749a6c34
     key: skipped
     type: text
