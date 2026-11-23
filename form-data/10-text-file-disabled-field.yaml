@@ -12,23 +12,23 @@ body:
   type: formdata
   content: ''
   fields:
-  - id: dd196c1ede054d42359d13c08014a28b
+  - enabled: true
+    id: dd196c1ede054d42359d13c08014a28b
     key: user
+    type: text
     value: tung
-    type: text
-    enabled: true
-  - id: b1ba17bb16cbf38a4932c7bd749a6c34
+  - enabled: true
+    id: b1ba17bb16cbf38a4932c7bd749a6c34
     key: skipped
-    value: should not arrive
     type: text
-    enabled: false
-  - id: 16f9e3bb1e928517635ef3d444b96922
+    value: should not arrive
+  - enabled: true
+    id: 16f9e3bb1e928517635ef3d444b96922
     key: avatar
+    type: file
     value: /Users/tungit/Works/product/zenar/docs/samples/sample.png
-    type: file
-    enabled: true
-  - id: 4e65dd4e3861f0ca87b34beb3fcc2713
+  - enabled: true
+    id: 4e65dd4e3861f0ca87b34beb3fcc2713
     key: note
-    value: /Users/tungit/Works/product/zenar/docs/samples/sample.txt
     type: file
-    enabled: true
+    value: /Users/tungit/Works/product/zenar/docs/samples/sample.txt
