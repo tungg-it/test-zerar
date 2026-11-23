@@ -1,5 +1,5 @@
 id: faf04c85-8f6d-4010-9e40-183ff81e93a9
-name: ok (copy)
+name: ok
 order: 3.0
 method: POST
 url: https://gateway-dev-cpdt.mbfs.vn/api/v1/auth/admin/sign-in
