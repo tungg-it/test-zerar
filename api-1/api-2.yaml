@@ -2,7 +2,7 @@ id: 6613a660-a32e-4246-a6e7-fb0a1c5f7d1a
 name: api 2
 order: 2.0
 method: GET
-url: http://localhost:3000?a=1
+url: http://localhost:3000?a=2
 body:
   type: form
   content: ''
