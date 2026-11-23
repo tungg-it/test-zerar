@@ -3,3 +3,6 @@ name: api 2
 order: 2.0
 method: GET
 url: http://localhost:3000?a=1
+body:
+  type: form
+  content: ''
