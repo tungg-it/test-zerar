@@ -4,5 +4,5 @@ order: 1.0
 variables:
 - id: c2bc9bd0-9c25-4421-9415-c1204bc97d04
   key: url
-  value: https://doit.tungit.io.vn/api/
+  value: https://doit.tungit.io.vn/api
   secret: false
