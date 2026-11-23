@@ -6,3 +6,7 @@ variables:
   key: url
   value: https://doit.tungit.io.vn/api/v1
   secret: false
+- id: c05baacf-9432-4898-8555-c2e4173b1bf3
+  key: userId
+  value: '1'
+  secret: false
