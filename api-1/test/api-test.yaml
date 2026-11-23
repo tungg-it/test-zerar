@@ -1,5 +1,5 @@
 id: 6114cb8a-20f0-4f22-a7d9-13817989ecef
 name: Api test
 order: 1.0
-method: GET
+method: POST
 url: ''
