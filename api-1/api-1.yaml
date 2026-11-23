@@ -2,7 +2,7 @@ id: f549a613-38e8-4b20-8bc7-2410c67eb2b7
 name: api 1
 order: 1.0
 method: GET
-url: http://localhost:3000?a=1
+url: https://doit.tungit.io.vn/api/v1/example/http
 headers:
 - id: 512834d8-b01a-4dfa-917c-4e575c864ce7
   key: ''
@@ -23,5 +23,6 @@ headers:
 auth:
   type: none
 body:
-  type: raw
+  type: graphql
   content: ''
+  variables: ''
