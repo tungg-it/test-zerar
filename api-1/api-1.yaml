@@ -3,8 +3,25 @@ name: api 1
 order: 1.0
 method: GET
 url: http://localhost:3000?a=1
+headers:
+- id: 512834d8-b01a-4dfa-917c-4e575c864ce7
+  key: ''
+  value: ''
+  enabled: true
+- id: 05d49248-08dc-406d-8479-2cb867b4089e
+  key: ''
+  value: ''
+  enabled: true
+- id: 1f810497-c1db-42c3-ac85-92ba076570ba
+  key: ''
+  value: ''
+  enabled: true
+- id: 418289d9-6a71-4da8-bf42-08da5065c424
+  key: ''
+  value: ''
+  enabled: true
 auth:
   type: none
 body:
-  type: form
+  type: raw
   content: ''
