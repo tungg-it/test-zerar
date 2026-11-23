@@ -2,7 +2,12 @@ id: f549a613-38e8-4b20-8bc7-2410c67eb2b7
 name: api 1
 order: 1.0
 method: GET
-url: https://doit.tungit.io.vn/api/v1/example/http
+url: '{{url}}/example/http'
+params:
+- id: 17f24e31-9bfa-40aa-b2a3-54c4ef14d15f
+  key: a
+  value: '{{userId}}'
+  enabled: true
 headers:
 - id: 512834d8-b01a-4dfa-917c-4e575c864ce7
   key: ''
@@ -21,8 +26,15 @@ headers:
   value: ''
   enabled: true
 auth:
-  type: none
+  type: bearer
+  token: '{{userId}}'
 body:
   type: graphql
   content: ''
   variables: ''
+scripts:
+  post_response: |-
+    var jsonData = pm.response.json();
+    if (jsonData.message === "Ok") {
+        zn.environment.set("userId", jsonData.data.userId);
+    }
