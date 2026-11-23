@@ -18,3 +18,10 @@ body:
 
 
 
+scripts:
+  post_response: |-
+    var jsonData = pm.response.json();
+    if (jsonData.message === "OK") {
+        zn.environment.set("access_token", jsonData.data.accessToken);
+        // pm.environment.set("refreshToken", jsonData.data.auth.refreshToken);
+    }
