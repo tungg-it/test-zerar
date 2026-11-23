@@ -10,5 +10,6 @@ body:
       "limit": 10,
       "lastId": "",
       "departmentId": "",
-      "name": "".
+      "departmentId": "",
+      "name": ""
     }
