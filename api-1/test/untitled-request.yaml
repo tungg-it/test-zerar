@@ -1,0 +1,20 @@
+id: c3a77170-f5cd-41cb-ad92-d675894a5ec7
+name: Untitled Request
+order: 2.0
+method: POST
+url: https://gateway-dev-cpdt.mbfs.vn/api/v1/auth/admin/sign-in
+headers:
+- id: 36f370ae-7a65-4e9c-a776-f985191dd179
+  key: accept
+  value: application/json
+  enabled: true
+body:
+  type: json
+  content: |+
+    {
+      "username": "superadmin",
+      "password": "123456"
+    }
+
+
+
