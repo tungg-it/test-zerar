@@ -1,0 +1,9 @@
+id: 529c1aaa2f64fd5effa58ed1df2d3588
+name: 03 Invalid variables JSON (expect error in Response)
+order: 3.0
+method: POST
+url: https://countries.trevorblades.com/graphql
+body:
+  type: graphql
+  content: 'query Country($code: ID!) { country(code: $code) { name } }'
+  variables: '{ "code": VN }'

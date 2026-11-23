@@ -1,0 +1,9 @@
+id: cf5dcc8d36b34bcadbe82bd4c42b2fde
+name: 09 No file chosen (sends empty body)
+order: 5.0
+method: POST
+url: https://httpbin.org/anything
+body:
+  type: binary
+  content: ''
+  file: ''
