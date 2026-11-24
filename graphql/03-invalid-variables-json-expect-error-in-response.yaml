@@ -7,3 +7,7 @@ body:
   type: graphql
   content: 'query Country($code: ID!) { country(code: $code) { name } }'
   variables: '{ "code": VN }'
+captures:
+- id: 4d8521e3-9d66-4d5c-9e96-4fac15b320da
+  name: ''
+  path: ''
