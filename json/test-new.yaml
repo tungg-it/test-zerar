@@ -1,0 +1,13 @@
+id: e54dd146-24ee-4a19-bf28-f09a7f59118b
+name: Test new
+order: 7.0
+method: POST
+url: https://httpbin.org/post
+headers:
+- id: 3090866f-8b51-45f0-8497-bf188b489690
+  key: Content-Type
+  value: application/vnd.api+json
+  enabled: true
+body:
+  type: json
+  content: "{\r\n  \"data\": {\r\n    \"type\": \"users\",\r\n    \"attributes\": {\r\n      \"name\": \"Tung\"\r\n    }\r\n  }\r\n}"
