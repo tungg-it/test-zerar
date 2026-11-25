@@ -1,0 +1,20 @@
+id: 897efb37-6d30-4424-81bb-b8d7876c0866
+name: 01 Country with variables (expect Vietnam) (copy)
+order: 1.5
+method: POST
+url: https://countries.trevorblades.com/graphql
+body:
+  type: graphql
+  content: |-
+    query Country($code: ID!) {
+      country(code: $code) {
+        name
+        capital
+        currency
+        emoji
+      }
+    }
+  variables: |-
+    {
+      "code": "VN"
+    }
