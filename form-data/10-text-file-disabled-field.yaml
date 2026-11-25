@@ -8,6 +8,8 @@ headers:
   key: Content-Type
   value: application/json
   enabled: true
+auth:
+  type: apikey
 body:
   type: formdata
   content: ''
