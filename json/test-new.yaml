@@ -10,4 +10,12 @@ headers:
   enabled: true
 body:
   type: json
-  content: "{\r\n  \"data\": {\r\n    \"type\": \"users\",\r\n    \"attributes\": {\r\n      \"name\": \"Tung\"\r\n    }\r\n  }\r\n}"
+  content: |-
+    {
+      "data": {
+        "type": "users",
+        "attributes": {
+          "name": "Tung1"
+        }
+      }
+    }
