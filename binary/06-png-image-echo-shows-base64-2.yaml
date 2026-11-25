@@ -1,0 +1,9 @@
+id: 151d11188554f91fb026745fb9b4d972
+name: 06 PNG image (echo shows base64)
+order: 2.0
+method: POST
+url: https://httpbin.org/anything
+body:
+  type: binary
+  content: ''
+  file: /Users/tungit/Works/product/zenar/docs/samples/sample.png

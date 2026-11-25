@@ -1,0 +1,9 @@
+id: e9a34ebbc03d252a851b69b00b8b5a2e
+name: 08 Missing file (expect 'cannot read file')
+order: 4.0
+method: POST
+url: https://httpbin.org/anything
+body:
+  type: binary
+  content: ''
+  file: /Users/tungit/Works/product/zenar/docs/samples/does-not-exist.bin

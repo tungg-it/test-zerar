@@ -1,0 +1,30 @@
+id: 2806e036b29aefc886a908a8fa06770b
+name: 12 Nested JSON with unicode (PUT)
+order: 2.0
+method: PUT
+url: https://httpbin.org/put
+body:
+  type: json
+  content: |-
+    {
+      "user": {
+        "id": 1,
+        "name": "Nguyễn Văn A",
+        "address": {
+          "city": "Hà Nội",
+          "zip": null
+        }
+      },
+      "items": [
+        {
+          "sku": "A-1",
+          "qty": 2,
+          "price": 19.99
+        },
+        {
+          "sku": "B-2",
+          "qty": 1,
+          "price": 5
+        }
+      ]
+    }

@@ -1,0 +1,13 @@
+id: 3fab83385eda8d35d37b34aa18d6a412
+name: 04 Unknown field (expect server errors[])
+order: 4.0
+method: POST
+url: https://countries.trevorblades.com/graphql
+body:
+  type: graphql
+  content: |-
+    query {
+      country(code: "VN") {
+        notAField
+      }
+    }

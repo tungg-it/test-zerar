@@ -1,0 +1,5 @@
+id: 85e02e5fc2983b19e2b645e5260b3e2d
+name: 16 JSON response (Preview + Beautify)
+order: 6.0
+method: GET
+url: https://httpbin.org/json

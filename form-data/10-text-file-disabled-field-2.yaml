@@ -1,0 +1,34 @@
+id: ef29452f97c2af57e0de4d9892088962
+name: 10 Text + file + disabled field
+order: 1.0
+method: POST
+url: https://httpbin.org/post
+headers:
+- id: 139d6ccc89d50e7af515f7c7eb0c6908
+  key: Content-Type
+  value: application/json
+  enabled: true
+body:
+  type: formdata
+  content: ''
+  fields:
+  - id: 3353e2cf4fe57804f19c727df0f5474c
+    key: user
+    value: tung
+    type: text
+    enabled: true
+  - id: 9f584849805e154a52bd75a325ce9286
+    key: skipped
+    value: should not arrive
+    type: text
+    enabled: false
+  - id: d298cc7412262f2c54c50097636a1723
+    key: avatar
+    value: /Users/tungit/Works/product/zenar/docs/samples/sample.png
+    type: file
+    enabled: true
+  - id: e864982b938e5853d47ac1865067eef5
+    key: note
+    value: /Users/tungit/Works/product/zenar/docs/samples/sample.txt
+    type: file
+    enabled: true

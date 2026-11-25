@@ -1,0 +1,9 @@
+id: 4c26b9bc656cf075b02c5a79c9b16bd5
+name: 05 Text file (echo shows data)
+order: 1.0
+method: POST
+url: https://httpbin.org/anything
+body:
+  type: binary
+  content: ''
+  file: /Users/tungit/Works/product/zenar/docs/samples/sample.txt

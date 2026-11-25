@@ -1,0 +1,19 @@
+id: aa1ed95a15d5463f520ce14b202f2dd5
+name: 13 JSON array at the top (PATCH)
+order: 3.0
+method: PATCH
+url: https://httpbin.org/patch
+body:
+  type: json
+  content: |-
+    [
+      {
+        "op": "replace",
+        "path": "/name",
+        "value": "Zenar"
+      },
+      {
+        "op": "remove",
+        "path": "/legacy"
+      }
+    ]

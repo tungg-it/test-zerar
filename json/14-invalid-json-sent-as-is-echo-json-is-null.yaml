@@ -1,0 +1,12 @@
+id: a7d7dad5e9d787cf58890edb8431a72a
+name: 14 Invalid JSON (sent as-is, echo json is null)
+order: 4.0
+method: POST
+url: https://httpbin.org/post
+body:
+  type: json
+  content: |-
+    {
+      "name": "Tung",
+      "age": 30,
+    }

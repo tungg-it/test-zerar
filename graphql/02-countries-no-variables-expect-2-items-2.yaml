@@ -1,0 +1,14 @@
+id: 9cbe7826cfdd7091e2e49ecd293e29ab
+name: 02 Countries, no variables (expect 2 items)
+order: 2.0
+method: POST
+url: https://countries.trevorblades.com/graphql
+body:
+  type: graphql
+  content: |-
+    query {
+      countries(filter: { code: { in: ["VN", "JP"] } }) {
+        code
+        name
+      }
+    }
