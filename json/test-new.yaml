@@ -15,7 +15,7 @@ body:
       "data": {
         "type": "users",
         "attributes": {
-          "name": "Tung2"
+          "name": "Tung"
         }
       }
     }
