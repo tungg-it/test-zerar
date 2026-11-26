@@ -1,9 +1,0 @@
-id: 20873421e9bd1e9e2e7c2a58cda7e9d2
-name: 09 No file chosen (sends empty body)
-order: 5.0
-method: POST
-url: https://httpbin.org/anything
-body:
-  type: binary
-  content: ''
-  file: ''
