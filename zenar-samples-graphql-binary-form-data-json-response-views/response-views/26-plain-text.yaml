@@ -1,0 +1,5 @@
+id: ed19d221ca50958cdbfd643dc0557c9b
+name: 26 Plain text
+order: 10.0
+method: GET
+url: https://httpbin.org/robots.txt

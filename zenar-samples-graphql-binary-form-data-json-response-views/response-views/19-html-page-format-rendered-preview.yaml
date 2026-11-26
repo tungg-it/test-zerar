@@ -1,0 +1,5 @@
+id: f4d4ba877a1f88463d2495e08e0331c7
+name: 19 HTML page (format + rendered Preview)
+order: 3.0
+method: GET
+url: https://httpbin.org/html

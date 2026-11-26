@@ -1,0 +1,14 @@
+id: 2d89d84b0b0cf4300b9471a0e4d8edb0
+name: 07 PNG with own Content-Type image/png
+order: 3.0
+method: PUT
+url: https://httpbin.org/anything
+headers:
+- id: ddd03e4b986175397100492ef1e9c47e
+  key: Content-Type
+  value: image/png
+  enabled: true
+body:
+  type: binary
+  content: ''
+  file: /Users/tungit/Works/product/zenar/docs/samples/sample.png

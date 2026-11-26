@@ -1,0 +1,21 @@
+id: 7dbcf6f6778e55b0d9dd518d4739a5cf
+name: 15 Own Content-Type kept (application/vnd.api+json)
+order: 5.0
+method: POST
+url: https://httpbin.org/post
+headers:
+- id: 91e01d007f6b8e1075bcb126aa20df09
+  key: Content-Type
+  value: application/vnd.api+json
+  enabled: true
+body:
+  type: json
+  content: |-
+    {
+      "data": {
+        "type": "users",
+        "attributes": {
+          "name": "Tung"
+        }
+      }
+    }

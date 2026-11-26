@@ -1,0 +1,5 @@
+id: cc31e497f2b7c40aca7761d274b12661
+name: 18 SVG as XML (image/svg+xml)
+order: 2.0
+method: GET
+url: https://cdn.jsdelivr.net/npm/lucide-static@0.460.0/icons/house.svg

@@ -1,0 +1,5 @@
+id: 6dba8eaff996319ca2378e51a15785a1
+name: 17 XML response (format + Postman-style Preview)
+order: 1.0
+method: GET
+url: https://httpbin.org/xml

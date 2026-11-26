@@ -1,0 +1,17 @@
+id: 7ab407c26f2e63ac1a48dc5fe50609d9
+name: 11 JSON object (echo json, Content-Type set)
+order: 1.0
+method: POST
+url: https://httpbin.org/post
+body:
+  type: json
+  content: |-
+    {
+      "name": "Tung",
+      "age": 30,
+      "active": true,
+      "tags": [
+        "dev",
+        "qa"
+      ]
+    }

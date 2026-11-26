@@ -1,0 +1,5 @@
+id: 780bd5a3979866388cd8bc2bdc912ee5
+name: 25 Markdown sent as text/plain (pick Markdown by hand)
+order: 9.0
+method: GET
+url: https://raw.githubusercontent.com/github/docs/main/README.md

@@ -1,0 +1,5 @@
+id: 568a55265eb74fa145aa4efad9d5400f
+name: 22 YAML (OpenAPI spec)
+order: 6.0
+method: GET
+url: https://petstore3.swagger.io/api/v3/openapi.yaml

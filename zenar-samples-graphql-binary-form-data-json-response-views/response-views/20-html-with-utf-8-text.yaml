@@ -1,0 +1,5 @@
+id: 43f90c79bdc76e7a621c26041beaa1e9
+name: 20 HTML with UTF-8 text
+order: 4.0
+method: GET
+url: https://httpbin.org/encoding/utf8

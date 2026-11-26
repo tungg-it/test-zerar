@@ -1,0 +1,5 @@
+id: 1b992c4de2060051ef0d9d5906e0be9f
+name: 23 JavaScript
+order: 7.0
+method: GET
+url: https://cdn.jsdelivr.net/npm/marked@18.2.0/lib/marked.umd.js
