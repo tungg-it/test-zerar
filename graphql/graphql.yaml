@@ -1,0 +1,20 @@
+id: f48af117-8f61-428b-b2d7-5e17cf50ced8
+name: GraphQL
+order: 5.0
+method: POST
+url: https://countries.trevorblades.com/graphql
+body:
+  type: graphql
+  content: |
+    query Country($code: ID!) {
+      country(code: $code) {
+        capital
+        code
+        emoji
+      }
+    }
+  variables: |-
+    {
+      "code": "VN"
+    }
+kind: graphql
